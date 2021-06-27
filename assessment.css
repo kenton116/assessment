@@ -1,0 +1,48 @@
+body {
+    font-size: 20px;
+    background-color: #A7CB9A;
+    color: #fdfdfd;
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: 'Yu Gothic';
+}
+
+button {
+    padding: 5px 20px;
+    background-color: #A4B484;
+    color: #fdfdfd;
+    border-style: none;
+    border-radius: 5%;
+    font-family: 'Yu Gothic';
+    border-style: solid;
+    box-shadow: 1.5px 1.5px 1.5px #fff;
+    transition: 700ms;
+}
+
+button:hover {
+    background-color: gray;
+    box-shadow: none;
+    transform: translate(1px,2px);
+}
+
+input[type="text"] {
+    height: 25px;
+    background-color: #D4E4B4;
+    border-color: rgb(210, 255, 170);
+    border-style: solid;
+    border-radius: 5%;
+    min-height: 1rem;
+    box-shadow: 2px 2px 2px #fff;
+    transition: 700ms;
+}
+
+input:focus[type="text"] {
+    border: 2px solid gray;
+    outline: 0;
+    box-shadow: none;
+    transform: translate(1px 2px);
+}
+
+
